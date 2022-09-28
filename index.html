@@ -14,12 +14,12 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   
-  <title>Página de destino do Fylo com layout de duas colunas</title>
+  <title>Fylo landing page with two-column layout</title>
 </head>
 <body>
-  <header class="barra-navegacao">
+  <header class="bar-nav">
     <div>
-      <a href="#"><img src="./images/logo.svg" alt="Logo da página"></a>
+      <a href="#"><img src="./images/logo.svg" alt="page logo"></a>
     </div>
     <div>
       <ul>
@@ -31,30 +31,42 @@
   </header>
 
   <main>
-    <section>
+    <section class="container">
       <div>
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-        <p>Fylo stores your most important files in one secure location. 
+        <h1 class="title">All your files in one secure location, accessible anywhere.</h1>
+        <p class="content">Fylo stores your most important files in one secure location. 
           Access them wherever you need, share and collaborate with friends, 
           family, and co-workers.</p>
-          <input type="text">
+          <input type="text" placeholder="ex: youremail@domain">
           <button>Get Started</button>
       </div>
-      <img src="./images/illustration-1.svg" alt="Ilustração da primeira seção">
+      <img class="section-img" src="./images/illustration-1.svg" alt="Illustration of the second section">
+    </section>
+
+    <section class="container">
+      <div>
+        <h1 class="title">Stay productive, wherever you are</h1>
+        <p class="content">Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.</p>
+        <p class="content">Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!</p>
+        <a href="#">See how Fylo works</a>
+        <div class="msn">Fylo has improved our team productivity by an order of magnitude. Since 
+          making the switch our team has become a well-oiled collaboration machine.</div>
+      </div>
+      <img class="second-section-img" src="./images/illustration-2.svg" alt="Illustration of the second section">
     </section>
   </main>
 
   
 
-  Stay productive, wherever you are
+  
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+  
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+  
 
-  See how Fylo works
+  
 
   Fylo has improved our team productivity by an order of magnitude. Since 
   making the switch our team has become a well-oiled collaboration machine.
