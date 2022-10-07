@@ -89,7 +89,7 @@ button {
 }
 
 .section-img {
-    width: 700px;
+    width: 680px;
     margin-left: 31px;
 }
 
@@ -98,6 +98,10 @@ button {
     height: 130px;
     position: relative;
     top: 4px; 
+}
+
+.curve-img-mobile {
+    display: none;
 }
 
 .second-section-img {
@@ -126,11 +130,15 @@ button {
     font-size: 18px;
     border-bottom: 2px solid var(--Moderate-Cyan);
     padding-bottom: 2px;
-    background-image: url('./images/icon-arrow.svg');
     background-repeat: no-repeat;
-    background-size: 20px;
     background-position: 170px;
     padding-right: 25px;
+    border-bottom: 2px solid var(--Moderate-Cyan);
+}
+
+.link img {
+    width: 20px;
+    margin-left: 5px;
 }
 
 .msn {
@@ -254,12 +262,204 @@ footer img {
   
   .twitter {
     text-align: center;
-    background: #55ACEE;
-    color: rgb(216, 27, 27);
   }
   
   .instagram {
     text-align: center;
-    background: #dd4b39;
-    color: white;
   }
+
+  @media screen and (max-width: 375px) {
+
+    .bar-nav {
+        padding: 20px 20px;
+    }
+
+    .bar-nav img {
+        width: 100px;
+    }
+
+    ul li:nth-child(2) {
+        align-items: center;
+        margin: 0 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+        margin-bottom: 140px;        
+    }
+
+    .container-content {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-img {
+        order: 1;
+    }
+
+    .container-img img {
+        width: 375px;
+        margin: 0;
+        padding: 70px 0;
+    }
+
+    .title {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .content {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        color: var(--VeryDark-Blue);
+        line-height: 1.4em;
+        margin: 30px 0;
+    }
+
+    input {
+        width: 303px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    button {
+        width: 326px;
+    }
+
+    .curve-img-desktop {
+        display: none;
+    }
+
+    .curve-img-mobile {
+        position: absolute;
+        top: 954px;
+    }
+
+    .container-section-second {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .container-box {
+        order: 2;
+    }
+
+    .second-section-img {
+        order: 1;
+        width: 375px;
+        padding-bottom: 80px;
+    }
+
+    .title-section-second {
+        font-size: 20px;
+    }
+
+    .content-section-second {
+        font-size: 17px;
+        color: var(--Desaturated-Blue);
+        font-weight: 400;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        width: 171px;
+        background-position: 268px;
+        margin: 30px auto 2px auto;
+        padding-right: 0;
+        padding-bottom: 4px;
+        font-size: 16px;
+    }
+
+    .msn {
+        background-position: 20px 20px;
+        margin: 50px auto;
+        padding: 40px 20px 20px 20px;
+        width: 222px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .msn p {
+        font-size: 10px;
+    }
+
+    .profile {
+        margin-top: 10px;
+    }
+
+    .access {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 50px 30px;
+    }
+
+    .access-content {
+        display: inline;
+    }
+
+    .access-content {
+        display: inline;
+        text-align: center;
+    }
+
+    .access-content h2 {
+        font-size: 20px;
+    }
+
+    .access p {
+        font-size: 16px;
+    }
+
+    .access-contact input {
+        width: 240px;
+        margin: 15px auto;
+        font-size: 14px;
+    }
+
+    .access-contact button {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 10px auto;
+        padding: 15px 0;
+        width: 270px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: var(--Bright-Blue);
+    }
+
+    .box {
+        display: block;
+        width: 375px;
+        display: block;
+        padding: 25px 0;
+        margin: 0 20px;
+    }
+
+    .other-links {
+        margin: 50px 0;
+    }
+
+    .other-contacts{
+        margin-bottom: 50px;
+    }
+
+    .icon-bar {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+}
