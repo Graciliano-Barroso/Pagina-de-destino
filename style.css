@@ -236,6 +236,11 @@ footer img {
     margin-bottom: 20px;
 }
 
+.box a:hover {
+    color: var(--Bright-Blue);
+    border-bottom: 2px solid var(--Bright-Blue);
+}
+
   .icon-bar a {
     width: 11px;
     height: 11px;
